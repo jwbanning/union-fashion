@@ -2,7 +2,7 @@
   "info": {
     "_postman_id": "9da1a474-5791-4766-b759-ab8a2d648748",
     "name": "Users API",
-    "description": "This collection is designed to show how you might mock, test document a new API. In this case, we're assuming that we're going to create a basic user management API.\n\n\nThis is added for the redblack demo\n\nIt has basic CRUD operations listed below.\n\nHit the \"Run in Postman\" button to see the pre-request and test scripts powering this collection.\n\nTry running the collection through the Collection Runner to see how the mock allows us to scope out all our responses and write our tests in advance.\n\n## Summary\n\nHaving undergone the effort of building out our collection in Postman first:\n\n- Using Postman Mocks\n- Writing tests\n \nThis has allowed us to then build out our API to match, meaning we could:\n(Update the `url` in the environment to `http://localhost:3000` and run the following Node API: https://github.com/matt-ball/users-api)\n\n- Debug our API as it was being built\n- Ensure parity with our mocks, meeting the designed blueprint\n- Run tests against the API as it was being built so that it's watertight\n\nAs a result:\n\n- We now have a shareable collection for our API\n- We have beautiful, rich documentation showing how it works\n- We can run our collection in a fully automated fashion and attach it to our CI/CD pipeline\n- We can create a Postman Monitor with no added effort to check for responsiveness and correctness",
+    "description": "This collection is designed to show how you might mock, test document a new API. In this case, we're assuming that we're going to create a basic user management API. This is just more text.....\n\n\nThis is added for the redblack demo\n\nIt has basic CRUD operations listed below.\n\nHit the \"Run in Postman\" button to see the pre-request and test scripts powering this collection.\n\nTry running the collection through the Collection Runner to see how the mock allows us to scope out all our responses and write our tests in advance.\n\n## Summary\n\nHaving undergone the effort of building out our collection in Postman first:\n\n- Using Postman Mocks\n- Writing tests\n \nThis has allowed us to then build out our API to match, meaning we could:\n(Update the `url` in the environment to `http://localhost:3000` and run the following Node API: https://github.com/matt-ball/users-api)\n\n- Debug our API as it was being built\n- Ensure parity with our mocks, meeting the designed blueprint\n- Run tests against the API as it was being built so that it's watertight\n\nAs a result:\n\n- We now have a shareable collection for our API\n- We have beautiful, rich documentation showing how it works\n- We can run our collection in a fully automated fashion and attach it to our CI/CD pipeline\n- We can create a Postman Monitor with no added effort to check for responsiveness and correctness",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
@@ -1745,19 +1745,19 @@
   ],
   "variable": [
     {
-      "id": "42cfc351-4455-4a7d-8ddb-f4bfb6e5eca3",
+      "id": "816a8731-dd3c-4dd6-a697-dcc9ff5fb780",
       "key": "firstName",
       "value": "Ben",
       "type": "string"
     },
     {
-      "id": "f985a3c4-8f9f-4122-a68c-d9ef230e43c4",
+      "id": "79fecf7c-4631-4ba9-9fee-894d5d0d8aad",
       "key": "lastName",
       "value": "Smith",
       "type": "string"
     },
     {
-      "id": "e2237ce0-6d0a-4c46-973c-b6219d58e59a",
+      "id": "a91fbf2e-43a9-4b1f-a2a6-67df1eb0747d",
       "key": "password",
       "value": "pw",
       "type": "string"
